@@ -1,0 +1,21 @@
+.backdrop {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.422);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  position: fixed;
+  margin: 0;
+  transition: all 300ms linear;
+}
+.modal {
+  z-index: 1;
+  border: none;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+}
